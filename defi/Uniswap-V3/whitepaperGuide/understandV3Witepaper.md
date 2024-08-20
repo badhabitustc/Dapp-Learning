@@ -457,6 +457,8 @@ below 和 above 的计算需要根据 `i_current` 与 a, b 两点的位置关系
 
 ```math
 feeGrowthOutside_below = feeGrowthOutside_a // a点所对应的tick的feeGrowthOutside
+```
+```math
 feeGrowthOutside_above = feeGrowthGlobal - feeGrowthOutside_b // b点所对应的tick的feeGrowthOutside
 ```
 
@@ -564,6 +566,8 @@ $$
 
 ```math
 secondsPerLiquidityCumulative +=  delta_time / liquidity {liquidity > 0}
+```
+```math
 secondsPerLiquidityCumulative +=  delta_time / 1 {liquidity = 0}
 ```
 
