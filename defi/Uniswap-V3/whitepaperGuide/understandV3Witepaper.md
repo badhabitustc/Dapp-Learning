@@ -73,7 +73,8 @@ V3 的核心公式，其实刚才已经出现了，我们只需要将虚拟流�
 
 ```math
 x = L / √p
-
+```
+```math
 y = L * √p
 ```
 
@@ -81,6 +82,8 @@ y = L * √p
 
 ```math
 x_virtual = L / √p_upper
+```
+```math
 y_virtual = L * √p_lower
 ```
 
@@ -123,6 +126,8 @@ V2 中添加流动性，因为价格就是两个资产的比值，所以很容�
 
 ```math
 x = L / √p
+```
+```math
 y = L * √p
 ```
 
@@ -139,6 +144,8 @@ img02: 价格在区间内
 
 ```math
 delta x = L / √p - L / √p_upper = L * (√p_upper - √p) / (√p * √p_upper)
+```
+```math
 delta y = L * √p  - L * √p_lower = L * (√p - √p_lower)
 ```
 
@@ -146,6 +153,8 @@ delta y = L * √p  - L * √p_lower = L * (√p - √p_lower)
 
 ```math
 L = delta x * (√p * √p_upper) / (√p_upper - √p)
+```
+```math
 L = delta y / √(p - p_lower)
 ```
 
